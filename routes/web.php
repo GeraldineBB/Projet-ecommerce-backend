@@ -23,6 +23,14 @@ $router->get(
     ]
 );
 
+// $router->get(
+//     '/',
+//     [
+//         'uses' => 'MainController@home',
+//         'as'   => 'main-home'
+//     ]
+// );
+
 /**
  * Route qui permet d'afficher les produits sur "tous les produits"
  */
